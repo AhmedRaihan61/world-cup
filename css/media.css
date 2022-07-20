@@ -1,0 +1,146 @@
+/* header section */
+
+/* for small device <576px */
+@media screen and (max-width: 576px) {
+  header {
+    flex-direction: column;
+  }
+  .greatest {
+    text-align: center;
+  }
+  .greatest h1 {
+    font-weight: bold;
+    font-size: 22px;
+    text-align: center;
+  }
+  .greatest p {
+    text-align: center;
+    padding-right: 0;
+    padding: 10px 10% 0;
+  }
+  .player {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .player img {
+    width: 233px;
+    height: 245px;
+    margin: 0;
+  }
+}
+
+/* for tablet 578px -> 768px */
+@media screen and (min-width: 577.1px) and (max-width: 768px) {
+  .greatest {
+    margin-top: 10px;
+  }
+  .greatest h1 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .greatest p {
+    padding-right: 0;
+    padding: 10px 20px 10px 0px;
+  }
+  .plyrs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .players:nth-child(9) {
+    display: none;
+  }
+  .player {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .player img {
+    width: 233px;
+    height: 245px;
+    margin: 0;
+  }
+  .tablet {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
+/* large device 768.1px to 991px */
+@media screen and (min-width: 778.1px) and (max-width: 991px) {
+  .greatest {
+    margin-top: 10px;
+  }
+  .greatest h1 {
+    font-weight: bold;
+    font-size: 22px;
+  }
+  .greatest p {
+    padding-right: 0;
+    padding: 10px 20px 10px 0px;
+  }
+  .player {
+    text-align: center;
+    margin-top: 25px;
+  }
+  .player img {
+    width: 233px;
+    height: 245px;
+    margin: 0;
+  }
+}
+
+/* All Players section start */
+@media screen and (max-width: 576px) {
+  aside {
+    background: #fff;
+  }
+  .all-players {
+    flex-direction: column;
+    margin: 10px;
+  }
+  .all-btn {
+    margin-top: 10px;
+    margin-left: 218px;
+  }
+  .all-btn button {
+    border: 1px solid gray;
+  }
+
+  .plyrs {
+    grid-template-columns: 1fr;
+    margin-left: 128px;
+  }
+}
+
+/* large device 768.1px to 991px */
+@media screen and (min-width: 768.1px) and (max-width: 991px) {
+  aside {
+  }
+  .all-players {
+  }
+  .all-btn {
+  }
+  .all-btn button {
+  }
+
+  .plyrs {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .all-players {
+    display: flex;
+    flex-direction: column;
+  }
+  .players:nth-child(9) {
+    display: none;
+  }
+  .all-btn {
+    margin-top: 44px;
+    margin-left: 5px;
+    padding: 0 20px;
+  }
+  .tablet {
+    display: block;
+    text-align: center;
+  }
+}
+
+/* All Players section end */

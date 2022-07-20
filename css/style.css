@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* common font family */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* header start */
+header {
+  background-color: #161616;
+  display: flex;
+}
+.greatest {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.greatest h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 70px;
+  padding-right: 2em;
+}
+.greatest p {
+  color: #fff;
+  padding-right: 15em;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #dd0000;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: inherit;
+  transition: 0.5s all ease-in-out;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.player {
+  transition: 0.5s all ease-in-out;
+}
+.all-btn a {
+  text-decoration: none;
+  color: black;
+}
+.player img {
+  margin-top: 115px;
+  margin-right: 75px;
+  height: 415px;
+  transition: 1s all ease-in-out;
+}
+.player:hover {
+  transform: translateY(-30px);
+}
+/* header end */
+
+/* All Players section Start */
+.all-players {
+  margin: 50px;
+  display: flex;
+  gap: 10px;
+}
+aside {
+  height: 300px;
+  width: 300px;
+  background-color: #161616;
+  border-radius: 15px;
+  padding: 0 40px;
+}
+.all-btn a {
+  background: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.all-btn {
+}
+aside button {
+  background: #ffffff;
+  border: none;
+  color: #161616;
+  padding: 10px 20px;
+  margin: 10px 0px;
+  border-radius: 10px;
+  transition: 0.5s all ease-in-out;
+}
+aside button:hover {
+  transform: scale(1.1);
+}
+.all-btn {
+  display: inline-grid;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+.players {
+  width: 285px;
+  height: 362px;
+  border: 2px solid gray;
+  border-radius: 13px;
+}
+
+.player-image img {
+}
+.player-content {
+  margin-left: 10px;
+}
+.player-content a {
+}
+.plyrs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-left: 48px;
+}
+.players:hover button {
+  transform: scale(1.1);
+  background-color: #dd0000;
+  color: #fff;
+  border: 2px solid #dd0000;
+}
+
+.player-content button {
+  background: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  transition: 0.5s all ease-in-out;
+}
+.player-content p {
+  padding-right: 25%;
+  padding: 20px 45px 20px 0px;
+}
+.time-and-comment {
+  margin-left: 10px;
+}
+
+.time-and-comment small {
+  margin-right: 31px;
+}
+.tablet {
+  display: none;
+}
+/* All Players section end */
+
+/* footer start */
+footer {
+  background: #161616;
+  height: 200px;
+}
+footer h3 {
+  color: #fff;
+  text-align: center;
+  padding-top: 35px;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+footer ul li {
+  color: #b9b9b9;
+  margin: 20px 0px;
+  /* cursor: inherit; */
+}
+footer ul li a {
+  color: #b9b995;
+}
+footer ul li a i {
+}
+.social-icon {
+  text-align: center;
+}
+.social-icon a {
+  color: #b9b9b9;
+  padding: 20px 20px;
+}
+/* footer end */
